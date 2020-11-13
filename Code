@@ -90,4 +90,5 @@ while livesRemaining > 0
     elseif livesRemaining = livesRemaining -1
         %show the guess was incorrect and display new value of
         %livesRemaining
-        fprintf('
+        fprintf('That guess was incorrect. You have %f lives remaining.', livesRemaining')
+        
